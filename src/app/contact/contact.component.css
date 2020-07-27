@@ -1,0 +1,29 @@
+#contact {
+  background-color: black;
+  color: white;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+}
+
+#contact form input:last-child {
+  margin-top: 30px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.input {
+  line-height: 2em;
+  width: 350px;
+  border-radius: 3px;
+  border-color: black;
+  margin: 20px 0;
+  /* padding-bottom: 10px; */
+}
